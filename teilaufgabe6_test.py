@@ -5,7 +5,7 @@ import os
 current_directory = os.path.dirname(os.path.abspath(__file__))
 
 # Pfad zum zu testenden Skript
-file_path = os.path.join(current_directory, 'Teilaufgabe6.py')  # Ersetzen Sie 'IhrSkriptname.py' mit dem Namen Ihrer Datei
+file_path = os.path.join(current_directory, 'teilaufgabe6.py')  # Ersetzen Sie 'IhrSkriptname.py' mit dem Namen Ihrer Datei
 
 def test_import_add_mul_from_calculator():
     """ Überprüft, ob die Funktionen 'add' und 'mul' aus dem Modul 'calculator' im Paket 'math_operations' importiert werden. """

@@ -4,7 +4,7 @@ import os
 current_directory = os.path.dirname(os.path.abspath(__file__))
 
 # Pfad zum zu testenden Skript und zum calc-Modul
-file_path = os.path.join(current_directory, 'Teilaufgabe3.py')
+file_path = os.path.join(current_directory, 'teilaufgabe3.py')
 
 def test_import_add_mul_from_calc():
     """ Überprüft, ob die Funktionen 'add' und 'mul' aus dem Modul 'calc' importiert werden. """

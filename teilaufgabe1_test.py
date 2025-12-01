@@ -1,8 +1,8 @@
 import importlib.util
 import os
 
-# Pfad zur Datei Teilaufgabe1.py
-file_path = 'Teilaufgabe1.py'
+# Pfad zur Datei teilaufgabe1.py
+file_path = 'teilaufgabe1.py'
 
 
 def test_import_statement():

@@ -6,7 +6,7 @@ import importlib.util
 current_directory = os.path.dirname(os.path.abspath(__file__))
 
 # Pfad zum zu testenden Skript und zum calc-Modul
-file_path = os.path.join(current_directory, 'Teilaufgabe4.py')
+file_path = os.path.join(current_directory, 'teilaufgabe4.py')
 calc_path = os.path.join(current_directory, 'calc.py')
 
 def test_import_addition_multiplication_from_calc():

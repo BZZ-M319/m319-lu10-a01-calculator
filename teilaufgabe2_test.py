@@ -4,7 +4,7 @@ import os
 current_directory = os.path.dirname(os.path.abspath(__file__))
 
 # Pfad zum zu testenden Skript
-file_path = os.path.join(current_directory, 'Teilaufgabe2.py')
+file_path = os.path.join(current_directory, 'teilaufgabe2.py')
 
 def test_import_calc():
     """ Überprüft, ob das Modul 'calc' korrekt importiert wird. """
